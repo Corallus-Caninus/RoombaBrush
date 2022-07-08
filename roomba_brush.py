@@ -14,6 +14,7 @@ insert the belt of fibers into the roomba brush
 TODO: snap on to remove the need for zip ties
 TODO: Can insert razors 
 to chop hair that gets wound around the brush.
+for now just dont insert a wedge and glue in razors into the empty slot.
 '''
 def RoombaBrush(
     motor_insert_cube_profile,
@@ -28,9 +29,7 @@ def RoombaBrush(
 ):
     roomba_brush = None
     # create the cube for the stator side insert
-    # TODO: frustrum cone instead as a bushing
-    # stator_insert = cube(
-    #     [stator_insert_cube_profile, stator_insert_cube_profile, stator_insert_cube_length], center=True)
+    # frustrum cone as a bushing
     stator_insert = cylinder(
         r1=stator_insert_cube_profile-wall_thickness,
         r2=stator_insert_cube_profile,
