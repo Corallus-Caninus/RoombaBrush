@@ -1,0 +1,15 @@
+# all measurements are in millimeters
+
+motor_insert_cube_profile= 5.0 #the diameter of the square that is inserted into robot on the motor side 
+motor_insert_cube_length = 8.0 #the length of the square that is inserted into robot on the motor side
+stator_insert_cube_profile  = 2.0 #the diameter of the cube that is inserted into robot on stator side 
+stator_insert_cube_length   = 4.0 #the length of the cube that is inserted into robot on the motor side
+
+brush_length = 100.0 #the length of the brush from the motor side to the stator side
+brush_diameter = 10.0 #the diameter of the brush
+
+number_fins = 3         #number of fins and corresponding inserts around the cylinder with optional razor holders to cut hair
+fiber_diameter= 0.5    #the diameter of the fiber that is used as a brush or the spacing otherwise
+
+#OBJECT PARAMETERS#
+wall_thickness = 1.5
